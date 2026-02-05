@@ -1,35 +1,37 @@
-# 🏠 Egyptian Real Estate Data Governance Project
+# 🛡️ Egyptian Real Estate: Data Governance & Security System
 
-A comprehensive Data Governance project analyzing Egyptian real estate market trends. This project manages the full data lifecycle, from acquisition and cleaning to enforcing security policies and encryption.
+A full-cycle Data Governance project that ensures data quality, integrity, and security for the Egyptian Real Estate market. The project implements strict **Data Quality Control**, **Encryption Standards**, and **Regulatory Compliance** (GDPR/CCPA).
 
-مشروع متكامل لحوكمة البيانات وتحليل سوق العقارات المصري. يغطي المشروع دورة حياة البيانات كاملة، بدءاً من التجميع والتنظيف، وصولاً إلى تأمين البيانات وتشفيرها وتطبيق سياسات الحوكمة.
+## 🚀 Project Phases & Features
 
-## 📂 Project Structure (مراحل المشروع)
+### 🔹 Phase 0: Data Profiling & Acquisition
+* [cite_start]**Dataset:** +10,000 records of Egyptian Real Estate data containing textual, numerical, and sensitive information[cite: 9].
+* **Profiling:** Conducted deep data profiling to identify inconsistencies and quality issues.
 
-The project is structured into three main phases to ensure data quality and security:
+### 🔹 Phase 1: Quality Control & Validation
+* **Data Cleaning:** Removed errors, handled missing values, and standardized formats.
+* [cite_start]**Validation Schema:** Developed a strict schema to ensure data validity before analysis[cite: 16].
 
-### 🔹 Phase 0: Data Acquisition
-* Collection of raw real estate data (`egyptian_real_estate_prices.csv`).
-* Initial data exploration and assessment.
+### 🔹 Phase 2: Security & Encryption Implementation
+* [cite_start]**Hashing:** Secured sensitive data (passwords/phone numbers) using advanced Hashing techniques[cite: 24].
+* [cite_start]**Encryption:** Applied **Substitution Ciphers** (Caesar/Playfair) to encrypt textual fields[cite: 25].
+* [cite_start]**Access Control:** Implemented Role-Based Access Control (RBAC) to restrict unauthorized access[cite: 27].
+* [cite_start]**Compliance:** Enforced data protection policies compliant with **GDPR** and **CCPA** using Python libraries[cite: 30, 31].
 
-### 🔹 Phase 1: Data Cleaning & Quality Assurance
-* Processing raw data to handle missing values and inconsistencies.
-* Generating clean datasets (`cleaned_data.csv`).
-* Producing data quality reports (`data_cleaning_report.html`).
+### 🌟 Bonus: Frequency Analysis Attack
+* Developed a script to perform a **Frequency Analysis Attack** on the encrypted data.
+* [cite_start]Successfully decrypted the Substitution Cipher text back to its original plain text to test encryption strength.
 
-### 🔹 Phase 2: Data Security & Encryption
-* Applying encryption techniques to protect sensitive information (`encrypted_data.csv`).
-* Enforcing data access policies and governance rules.
-
-## 🛠️ Tech Stack & Tools
+## 🛠️ Tech Stack
 * **Language:** Python
-* **Analysis:** Jupyter Notebooks (`.ipynb`)
-* **Libraries:** Pandas, NumPy, Cryptography libraries
-* **Documentation:** HTML Reports & PowerPoint Presentation
+* **Cryptography:** `hashlib`, `PyCryptodome`, `cryptography`
+* **Data Manipulation:** Pandas, NumPy
+* **Compliance Tools:** `python-gdpr-utils`, `privacy-python`
 
-## 📄 Key Files
-* `Data Governance-Project.pptx`: Comprehensive presentation of the project workflow.
-* `Phase_1_DG.ipynb` & `Phase2_Notebook.ipynb`: The core code for data processing and governance.
+## 📂 Project Structure
+* `phase 1/`: Data cleaning notebooks and quality reports.
+* `phase 2/`: Encryption logic, RBAC implementation, and secured datasets.
+* `Data Governance-Project.pptx`: Comprehensive presentation of the workflow.
 
 ---
-*Created by [Ahmed Ezzat Allam](https://github.com/AhmedEzzatAllam-2004)*
+*Developed by Ahmed Ezzat Allam*
